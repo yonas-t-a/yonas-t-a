@@ -5,22 +5,20 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write   # 🔴 THIS IS CRITICAL
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. This is the missing piece!
-      - uses: actions/checkout@v4
-
-      # 2. Generate the snake
       - uses: Platane/snk@v3
         with:
           github_user_name: yonas-t-a
           outputs: |
             dist/github-contribution-grid-snake.svg
 
-      # 3. Deploy to the 'output' branch
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
