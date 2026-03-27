@@ -1,4 +1,4 @@
-## Hi there 👋
+<!-- ## Hi there 👋
 
 
 
@@ -10,4 +10,9 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: 
+ -->
+
+
+ ![Snake animation](https://github.com/yonas-t-a/yonas-t-a/blob/output/github-contribution-grid-snake.svg)
+
 
