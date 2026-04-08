@@ -13,6 +13,6 @@ Here are some ideas to get you started:
  -->
 
 
- ![Snake animation](https://github.com/yonas-t-a/yonas-t-a/blob/output/github-contribution-grid-snake.svg)
+ <!-- ![Snake animation](https://github.com/yonas-t-a/yonas-t-a/blob/output/github-contribution-grid-snake.svg)
 
-
+ -->
